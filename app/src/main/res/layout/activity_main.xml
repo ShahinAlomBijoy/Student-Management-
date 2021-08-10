@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".MainActivity">
+
+<EditText
+    android:hint="Enter the Student name:"
+    android:layout_marginTop="10dp"
+    android:id="@+id/editTextId1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextId2"
+        android:layout_width="match_parent"
+        android:hint="Enter the Student age:"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextId1"/>
+
+
+    <EditText
+        android:hint="Enter the Student address:"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/editTextId2"
+        android:id="@+id/editTextId3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:backgroundTint="#EE007B"
+        android:layout_marginTop="10dp"
+        android:text="add student"
+
+        android:layout_below="@id/editTextId3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"/>
+    <Button
+
+        android:backgroundTint="#EE007B"
+        android:layout_marginTop="10dp"
+        android:text="Show Student"
+
+        android:layout_below="@id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"/>
+
+
+</RelativeLayout>
